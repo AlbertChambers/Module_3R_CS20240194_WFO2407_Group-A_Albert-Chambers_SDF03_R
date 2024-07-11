@@ -32,7 +32,7 @@
                 <img id="codespacecat" style="width: 250px; padding-bottom: 0.5cm;" src="images/cat-codespace.png" alt="My Profile Picture">
             </p>
             <p>
-                Hello! I'm <b>CodeSpace Cat</b>. I'm purr-ssionate about development and design. I've been pawing at the web industry for just one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twitching, and fur-tastic web experience. Whoa that's a lot of puns. 🐾
+                Hello! I'm <strong>CodeSpace Cat</strong>. I'm purr-ssionate about development and design. I've been pawing at the web industry for just one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twitching, and fur-tastic web experience. Whoa that's a lot of puns. 🐾
             </p>
         </section>
         <!-- Skills Section -->
@@ -87,7 +87,17 @@
         <!-- Contact Section -->
         <section id="contact">
             <h2 style="font-size: larger; padding-bottom: 0.5cm"> Contact Me</h2>
-
+            <span>
+                <form id="contactform" name="contactform">
+                    <label for="name"> Name:</label>
+                    <input id="name" name="name" type="text">
+                    <label for="email"> Email:</label>
+                    <input id="email" name="email" type="text">
+                    <label for="messages"> Message:</label>
+                    <textarea id="messages" name="messages"></textarea>
+                    <button type="submit" formmethod="post" id="formsubmit" name="formsubmit">Submit</button>
+                </form>
+            </span>
         </section>
         <br>
         <!-- Footer -->
